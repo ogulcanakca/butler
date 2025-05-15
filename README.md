@@ -27,15 +27,19 @@ To get this project up and running, follow these steps after navigating to the r
     ```bash
     uv run ruff check
     ```
-5.  **Lock dependencies:**
+5. **Install libraries:**
+    ```bash
+     uv pip install -r requirements.txt
+    ```
+6.  **Lock dependencies:**
     ```bash
     uv lock
     ```
-6.  **Sync dependencies (install them based on the lock file):**
+7.  **Sync dependencies (install them based on the lock file):**
     ```bash
     uv sync
     ```
-7.  **Run the agent:**
+8.  **Run the agent:**
     ```bash
     uv run agent.py
     ```
